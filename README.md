@@ -1,7 +1,5 @@
 # Placement
 
-#### Video Demo:  https://youtu.be/rqahvBhgIoQ
-
 ## User Description:
 
  Placement is my final project for Harvard's CS50X; thus I used the opportunity to solve a problem that has plagued me for years. That is, not knowing which of my playlists a specific song should go into. Placement solves that exact problem.
