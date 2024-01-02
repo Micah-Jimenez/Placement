@@ -1,0 +1,46 @@
+{% extends "layout.html" %} 
+
+{% block title %} Placement {% endblock %}
+
+{% block main %}
+<div class="playlists-body">
+  <nav>
+    <div class="container">
+      <a class="navbar-svg" href="/">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="Spotify" width="132" height="40">
+      </a>
+      <div class="nav-links">
+          <a href="#">
+            learn more
+          </a>
+          <a href="#">
+            view code
+          </a>
+      </div>
+    </div>
+  </nav>
+  
+  <main>
+    <div class="form-container">
+      <h1>
+        Enter song name and artist
+      </h1>
+      
+      <form action="/playlists" method="post" class="form" id="formId">
+          <input type="text" name="song" placeholder="Song" id="inputSong">
+          <input type="text" placeholder="Artist" name="artist" id="inputArtist">
+          <button type="submit" id="submitButton">Submit</button>
+      </form>
+      <div class="list" id="playlistNames">
+      </div>
+      <div>
+        <h1>{{ answer }}</h1>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &#169Placement
+  </footer>
+</div>
+{% endblock %}

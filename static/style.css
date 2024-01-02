@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&family=Signika&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.index-body,
+.playlists-body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Signika', sans-serif;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.download a{
+    color: black;
+}
+
+.download a:hover{
+    color: green;
+}
+
+nav a:hover{
+    color: rgb(30, 215, 96);
+}
+
+nav .container{
+    background-color: black;
+    margin: 0;
+    padding: 1% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    color: white;
+    font-size: x-large;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome,
+.statement{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statement{
+    font-size: xx-large;
+    text-align: center;
+    margin: 10px;
+}
+
+.welcome h1, .container2 h1{
+    margin-bottom: 0;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.laptop{
+    height: 8vh;
+} 
+.microsoft{
+    height: 10vh;
+}
+
+main .container{
+    background-color: rgb(25, 230, 140);
+    height: 74vh;
+}
+
+section .container1{
+    height: 35vh;
+}
+
+section .container2{
+    background-color: rgb(34, 35, 38);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: x-large;
+}
+
+.container2 img{
+    height: 25vh;
+}
+
+footer .container{
+    background-color: black;
+    height: 8vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.playlists-body main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    font-size: x-large;
+}
+
+main .list{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.playlists-body footer{
+    margin-top: auto;
+    background-color: #121212;
+    height: 5vh;
+    color: rgb(57, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlists-body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(black 8%, rgb(25, 230, 140) 100%);
+}
+
+.form-container{
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form input{
+    margin: 20px;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: none;
+}
+
+input, select, textarea{
+    color: white;
+    padding-left: 10px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.201);
+    font-family: 'Signika', sans-serif;
+    font-size: large;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 10px;
+    font-family: 'Signika', sans-serif;
+}
+
+input:focus{
+    border: none;
+    color: white;
+    font-size: large;
+    padding-left: 10px;
+    outline: none;
+}
+
+input::content{
+    background-color: rgba(255, 255, 255, 0.201);
+}
+
+form button{
+    height: 4vh;
+    width: 8vw;
+    margin-top: 5px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: large;
+    font-family: 'Signika', sans-serif;
+}
+
+form button:focus{
+    color: rgba(24,133,63,1);
+}
